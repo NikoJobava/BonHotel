@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.nav-link {
+  color: #957554;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+.first-section {
+    background-image: url(./Assets/main.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.first-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+}
+.main-title {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 92px;
+  color: white;
+}
+.description,
+.button {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+.button {
+  text-decoration: none;
+  background-color: #DFAA5B;
+  border-radius: 10px;
+  padding: 25px 133px;
+}
+.button:hover {
+  color: black;
+}
+.secondary-title {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #DFAA5B;
+  text-align: center;
+  margin-bottom: 47px;
+
+}
+.rooms-card {
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.rooms-card > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.cards-coontent {
+  position: absolute;
+  left: 18%;
+  bottom: 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+}
+.card-title {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  color: white;
+}
+.button.button-small {
+ padding: 42px 52px 24px 56px;
+}
+ 
